@@ -1,0 +1,196 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:multidex:1.0.3] /Users/macbook/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/36e3ac3ea0ae82d4b6a6f8f9179c768c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:17:1-30:12
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.dagger:dagger-android-support:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.16.aar/3efd55c49129aadb14f7fcaaa6d8973b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e5c404225d1061c4ce1078f3c41f34c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b11596e33d666c633e5c267aab710573/AndroidManifest.xml:17:1-22:12
+MERGED from [com.nex3z:flow-layout:1.2.4] /Users/macbook/.gradle/caches/transforms-1/files-1.1/flow-layout-1.2.4.aar/e50ce8ab58acd788cc4b35b7d11625fc/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98a2a3fbd09330f5ea83b6077b363df1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b27d36e750a63896a71b8c3858547bed/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f10b32f4e0d24458aef5cf6eedd4ccd1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/7d4501793997ec53862f69e3b271ca02/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/0f540491efd0757c44f2942ffe29783c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.1.aar/03d850a34ea552541ee34963807af697/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b7bc4d896f9ed14046cd0a5a609bc30/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/587298edfbbd2b70333cf1e372a8b0a3/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.paging:rxjava2:1.0.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.0.1.aar/5854acd5f0ae1e16b726d642ba8aa96d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/b8983935823f26499343314470774698/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.dagger:dagger-android:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-2.16.aar/1959402697a25d19272409b13af110bc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.0.0.aar/1f9b70fb509b6c8b5b5f808000c57a82/AndroidManifest.xml:2:1-8:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-2.0.0.aar/72f1552404634e25bb9ceb0cd3503981/AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/de33029fe979e9029bb6a0a029a286f9/AndroidManifest.xml:15:1-21:12
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/416cf2422caaaa4ace8c2fadbdc6302c/AndroidManifest.xml:2:1-9:12
+MERGED from [com.android.support:transition:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6d0ce36a8706e7e2d1584595c810ae2b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/6d46333f74cd6db1dd96610bb983a5a9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/a38891782d3a5102e70251bf0774382b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f2f397d059f1c0ca411dadc257015c9a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/945bbead815d4b9ddd4cf7c4a0ebd1f7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a213726e5e2b9b35e29ee5ba2abb8d5f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cc3ffe7265a28782987b201a57a1e156/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/aba356b33d30f44b4bf81a2580420c5e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8ffb8331c34aa57fd80e112e0e078289/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/12370959fcccb2090049aad031bd35c7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7495e5f3f0564cc732e2e7265d164789/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/70fe8e634cc2c0fd871ca850297cea72/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/9b1a3ded06621f7b4ecbc1403a7478be/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/7662e03d6f2a9fa83247659ab954b327/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:2:1-11:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-21:12
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:22:5-28:19
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:22:5-28:19
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:11:5-20
+MERGED from [com.nex3z:flow-layout:1.2.4] /Users/macbook/.gradle/caches/transforms-1/files-1.1/flow-layout-1.2.4.aar/e50ce8ab58acd788cc4b35b7d11625fc/AndroidManifest.xml:11:5-20
+MERGED from [com.nex3z:flow-layout:1.2.4] /Users/macbook/.gradle/caches/transforms-1/files-1.1/flow-layout-1.2.4.aar/e50ce8ab58acd788cc4b35b7d11625fc/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/7d4501793997ec53862f69e3b271ca02/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/7d4501793997ec53862f69e3b271ca02/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/b8983935823f26499343314470774698/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/b8983935823f26499343314470774698/AndroidManifest.xml:11:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/416cf2422caaaa4ace8c2fadbdc6302c/AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/416cf2422caaaa4ace8c2fadbdc6302c/AndroidManifest.xml:7:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:9:5-20
+	android:supportsRtl
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:11:9-40
+activity#gallery.app.gaurav.com.usergalley.MainActivity
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] /Users/macbook/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/36e3ac3ea0ae82d4b6a6f8f9179c768c/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] /Users/macbook/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/36e3ac3ea0ae82d4b6a6f8f9179c768c/AndroidManifest.xml:20:5-43
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.dagger:dagger-android-support:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.16.aar/3efd55c49129aadb14f7fcaaa6d8973b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android-support:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-support-2.16.aar/3efd55c49129aadb14f7fcaaa6d8973b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e5c404225d1061c4ce1078f3c41f34c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/1e5c404225d1061c4ce1078f3c41f34c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b11596e33d666c633e5c267aab710573/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.1.aar/b11596e33d666c633e5c267aab710573/AndroidManifest.xml:20:5-44
+MERGED from [com.nex3z:flow-layout:1.2.4] /Users/macbook/.gradle/caches/transforms-1/files-1.1/flow-layout-1.2.4.aar/e50ce8ab58acd788cc4b35b7d11625fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.nex3z:flow-layout:1.2.4] /Users/macbook/.gradle/caches/transforms-1/files-1.1/flow-layout-1.2.4.aar/e50ce8ab58acd788cc4b35b7d11625fc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98a2a3fbd09330f5ea83b6077b363df1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/98a2a3fbd09330f5ea83b6077b363df1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b27d36e750a63896a71b8c3858547bed/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/b27d36e750a63896a71b8c3858547bed/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f10b32f4e0d24458aef5cf6eedd4ccd1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/f10b32f4e0d24458aef5cf6eedd4ccd1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/7d4501793997ec53862f69e3b271ca02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.2.aar/7d4501793997ec53862f69e3b271ca02/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/0f540491efd0757c44f2942ffe29783c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/0f540491efd0757c44f2942ffe29783c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.1.aar/03d850a34ea552541ee34963807af697/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:rxjava2:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.1.1.aar/03d850a34ea552541ee34963807af697/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b7bc4d896f9ed14046cd0a5a609bc30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/7b7bc4d896f9ed14046cd0a5a609bc30/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/587298edfbbd2b70333cf1e372a8b0a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:runtime:1.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/587298edfbbd2b70333cf1e372a8b0a3/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:rxjava2:1.0.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.0.1.aar/5854acd5f0ae1e16b726d642ba8aa96d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.paging:rxjava2:1.0.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxjava2-1.0.1.aar/5854acd5f0ae1e16b726d642ba8aa96d/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/b8983935823f26499343314470774698/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.stetho:stetho:1.5.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/stetho-1.5.0.aar/b8983935823f26499343314470774698/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.dagger:dagger-android:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-2.16.aar/1959402697a25d19272409b13af110bc/AndroidManifest.xml:20:5-44
+MERGED from [com.google.dagger:dagger-android:2.16] /Users/macbook/.gradle/caches/transforms-1/files-1.1/dagger-android-2.16.aar/1959402697a25d19272409b13af110bc/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.0.0.aar/1f9b70fb509b6c8b5b5f808000c57a82/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding-kotlin:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-kotlin-2.0.0.aar/1f9b70fb509b6c8b5b5f808000c57a82/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-2.0.0.aar/72f1552404634e25bb9ceb0cd3503981/AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxbinding-2.0.0.aar/72f1552404634e25bb9ceb0cd3503981/AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/de33029fe979e9029bb6a0a029a286f9/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.2] /Users/macbook/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.2.aar/de33029fe979e9029bb6a0a029a286f9/AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/416cf2422caaaa4ace8c2fadbdc6302c/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton.timber:timber:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/timber-4.7.1.aar/416cf2422caaaa4ace8c2fadbdc6302c/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:transition:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6d0ce36a8706e7e2d1584595c810ae2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/transition-27.1.1.aar/6d0ce36a8706e7e2d1584595c810ae2b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/6d46333f74cd6db1dd96610bb983a5a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.1.aar/6d46333f74cd6db1dd96610bb983a5a9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/a38891782d3a5102e70251bf0774382b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.1.aar/a38891782d3a5102e70251bf0774382b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f2f397d059f1c0ca411dadc257015c9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/f2f397d059f1c0ca411dadc257015c9a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/945bbead815d4b9ddd4cf7c4a0ebd1f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/945bbead815d4b9ddd4cf7c4a0ebd1f7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a213726e5e2b9b35e29ee5ba2abb8d5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/a213726e5e2b9b35e29ee5ba2abb8d5f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cc3ffe7265a28782987b201a57a1e156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/cc3ffe7265a28782987b201a57a1e156/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/aba356b33d30f44b4bf81a2580420c5e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/aba356b33d30f44b4bf81a2580420c5e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8ffb8331c34aa57fd80e112e0e078289/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/8ffb8331c34aa57fd80e112e0e078289/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/12370959fcccb2090049aad031bd35c7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/12370959fcccb2090049aad031bd35c7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7495e5f3f0564cc732e2e7265d164789/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/7495e5f3f0564cc732e2e7265d164789/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/70fe8e634cc2c0fd871ca850297cea72/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/70fe8e634cc2c0fd871ca850297cea72/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/9b1a3ded06621f7b4ecbc1403a7478be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/9b1a3ded06621f7b4ecbc1403a7478be/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/7662e03d6f2a9fa83247659ab954b327/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/7662e03d6f2a9fa83247659ab954b327/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		ADDED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
+provider#android.arch.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:23:9-27:43
+	android:authorities
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:25:13-68
+	android:multiprocess
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:27:13-40
+	android:exported
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:24:13-83
