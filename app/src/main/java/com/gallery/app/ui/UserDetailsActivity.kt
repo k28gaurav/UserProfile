@@ -17,7 +17,7 @@ class UserDetailsActivity: DaggerBaseActivity<UserDetailsViewModel>() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_user)
         viewModel = ViewModelProviders.of(this, viewModelFactory)[UserDetailsViewModel::class.java]
         initViews()
     }

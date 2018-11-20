@@ -87,6 +87,8 @@ dependencies {
     ext.others = {
         implementation "com.jakewharton.timber:timber:$config.timber"
         implementation 'com.nex3z:flow-layout:1.2.4'
+        implementation 'de.hdodenhof:circleimageview:1.3.0'
+
     }
 
     //8

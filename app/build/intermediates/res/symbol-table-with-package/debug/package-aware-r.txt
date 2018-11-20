@@ -78,7 +78,12 @@ attr behavior_hideable
 attr behavior_overlapTop
 attr behavior_peekHeight
 attr behavior_skipCollapsed
+attr borderColor
+attr borderOverlay
 attr borderWidth
+attr border_color
+attr border_overlay
+attr border_width
 attr borderlessButtonStyle
 attr bottomSheetDialogTheme
 attr bottomSheetStyle
@@ -473,10 +478,13 @@ color abc_tint_spinner
 color abc_tint_switch_track
 color accent_material_dark
 color accent_material_light
+color app_intro_blue
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color blue_opacity_20
+color blue_opacity_30
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -541,6 +549,9 @@ color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
+color sky_blue_80
+color sky_blue_light
+color start_btn_green
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
@@ -549,6 +560,10 @@ color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
 color tooltip_background_dark
 color tooltip_background_light
+color white
+color white_50
+color white_80_transparent
+color white_semi_transparent
 dimen abc_action_bar_content_inset_material
 dimen abc_action_bar_content_inset_with_nav
 dimen abc_action_bar_default_height_material
@@ -624,6 +639,22 @@ dimen abc_text_size_subhead_material
 dimen abc_text_size_subtitle_material_toolbar
 dimen abc_text_size_title_material
 dimen abc_text_size_title_material_toolbar
+dimen app_text_size_22sp
+dimen app_text_size_28sp
+dimen app_text_size_36sp
+dimen app_text_size_40sp
+dimen app_text_size_44sp
+dimen app_text_size_54sp
+dimen app_text_size_huge
+dimen app_text_size_large
+dimen app_text_size_medium
+dimen app_text_size_small
+dimen app_text_size_xlarge
+dimen app_text_size_xsmall
+dimen app_text_size_xxlarge
+dimen app_text_size_xxsmall
+dimen app_text_size_xxxlarge
+dimen app_text_size_xxxsmall
 dimen cardview_compat_inset_shadow
 dimen cardview_default_elevation
 dimen cardview_default_radius
@@ -632,6 +663,7 @@ dimen compat_button_inset_vertical_material
 dimen compat_button_padding_horizontal_material
 dimen compat_button_padding_vertical_material
 dimen compat_control_corner_material
+dimen cornerRadius
 dimen design_appbar_elevation
 dimen design_bottom_navigation_active_item_max_width
 dimen design_bottom_navigation_active_text_size
@@ -672,6 +704,7 @@ dimen design_tab_text_size
 dimen design_tab_text_size_2line
 dimen disabled_alpha_material_dark
 dimen disabled_alpha_material_light
+dimen fab_margin
 dimen fastscroll_default_thickness
 dimen fastscroll_margin
 dimen fastscroll_minimum_range
@@ -685,6 +718,8 @@ dimen hint_pressed_alpha_material_light
 dimen item_touch_helper_max_drag_scroll_per_frame
 dimen item_touch_helper_swipe_escape_max_velocity
 dimen item_touch_helper_swipe_escape_velocity
+dimen margin_10dp
+dimen margin_large
 dimen notification_action_icon_size
 dimen notification_action_text_size
 dimen notification_big_circle_margin
@@ -700,6 +735,56 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen padding_normal
+dimen rectangle_width_medium
+dimen spacing_10dp
+dimen spacing_11dp
+dimen spacing_12dp
+dimen spacing_13dp
+dimen spacing_14dp
+dimen spacing_15dp
+dimen spacing_17dp
+dimen spacing_180dp
+dimen spacing_18dp
+dimen spacing_19dp
+dimen spacing_20dp
+dimen spacing_22dp
+dimen spacing_25dp
+dimen spacing_26dp
+dimen spacing_30dp
+dimen spacing_34dp
+dimen spacing_39dp
+dimen spacing_3dp
+dimen spacing_40dp
+dimen spacing_42dp
+dimen spacing_46dp
+dimen spacing_48dp
+dimen spacing_51dp
+dimen spacing_54dp
+dimen spacing_57dp
+dimen spacing_5dp
+dimen spacing_60dp
+dimen spacing_61dp
+dimen spacing_63dp
+dimen spacing_64dp
+dimen spacing_6dp
+dimen spacing_70dp
+dimen spacing_78dp
+dimen spacing_80dp
+dimen spacing_8dp
+dimen spacing_9dp
+dimen spacing_huge
+dimen spacing_large
+dimen spacing_medium
+dimen spacing_small
+dimen spacing_xhuge
+dimen spacing_xlarge
+dimen spacing_xmedium
+dimen spacing_xsmall
+dimen spacing_xxlarge
+dimen spacing_xxsmall
+dimen spacing_xxxlarge
+dimen toolbar_icon_size
 dimen tooltip_corner_radius
 dimen tooltip_horizontal_padding
 dimen tooltip_margin
@@ -793,12 +878,16 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable bg_edittext
+drawable bg_edittext_focused
+drawable bg_edittext_normal
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable ic_github_circle_white_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable navigation_empty_icon
@@ -816,6 +905,8 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable user_avatar
+drawable user_background
 id ALT
 id CTRL
 id FUNCTION
@@ -847,12 +938,15 @@ id alertTitle
 id align
 id all
 id always
+id appbar
 id async
 id auto
 id barrier
 id beginning
 id blocking
 id bottom
+id btn_resume_test
+id btn_start
 id buttonPanel
 id cancel_action
 id center
@@ -864,6 +958,8 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
+id collapsing_toolbar
+id constraintLayout
 id container
 id contentPanel
 id coordinator
@@ -884,6 +980,7 @@ id end
 id end_padder
 id enterAlways
 id enterAlwaysCollapsed
+id et_name
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -911,6 +1008,7 @@ id line3
 id listMode
 id list_item
 id masked
+id materialup_profile_image
 id media_actions
 id message
 id middle
@@ -930,12 +1028,15 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id profile_background
+id profile_image
 id progress_circular
 id progress_horizontal
 id radio
 id right
 id right_icon
 id right_side
+id rv_gallery
 id save_image_matrix
 id save_non_transition_alpha
 id save_scale_type
@@ -988,7 +1089,9 @@ id textinput_error
 id time
 id title
 id titleDividerNoCustom
+id title_container
 id title_template
+id toolbar
 id top
 id topPanel
 id touch_outside
@@ -997,6 +1100,8 @@ id transition_layout_save
 id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
+id tv_timer
+id tv_user_name
 id uniform
 id up
 id useLogo
@@ -1042,7 +1147,8 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
-layout activity_main
+layout activity_user
+layout activity_user_detail
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1111,6 +1217,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
+string full_name_hint
 string password_toggle_content_description
 string path_password_eye
 string path_password_eye_mask_strike_through
@@ -1413,6 +1520,7 @@ style ThemeOverlay_AppCompat_Dark_ActionBar
 style ThemeOverlay_AppCompat_Dialog
 style ThemeOverlay_AppCompat_Dialog_Alert
 style ThemeOverlay_AppCompat_Light
+style ToolBarWithNavigationBack
 style Widget_AppCompat_ActionBar
 style Widget_AppCompat_ActionBar_Solid
 style Widget_AppCompat_ActionBar_TabBar
@@ -1518,6 +1626,7 @@ styleable BottomNavigationView elevation itemBackground itemIconTint itemTextCol
 styleable BottomSheetBehavior_Layout behavior_hideable behavior_peekHeight behavior_skipCollapsed
 styleable ButtonBarLayout allowStacking
 styleable CardView android_minWidth android_minHeight cardBackgroundColor cardCornerRadius cardElevation cardMaxElevation cardPreventCornerOverlap cardUseCompatPadding contentPadding contentPaddingBottom contentPaddingLeft contentPaddingRight contentPaddingTop
+styleable CircleImageView borderColor borderOverlay borderWidth border_color border_overlay border_width
 styleable CollapsingToolbarLayout collapsedTitleGravity collapsedTitleTextAppearance contentScrim expandedTitleGravity expandedTitleMargin expandedTitleMarginBottom expandedTitleMarginEnd expandedTitleMarginStart expandedTitleMarginTop expandedTitleTextAppearance scrimAnimationDuration scrimVisibleHeightTrigger statusBarScrim title titleEnabled toolbarId
 styleable CollapsingToolbarLayout_Layout layout_collapseMode layout_collapseParallaxMultiplier
 styleable ColorStateListItem android_color android_alpha alpha

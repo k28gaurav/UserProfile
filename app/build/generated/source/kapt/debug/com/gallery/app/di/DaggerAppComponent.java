@@ -14,6 +14,10 @@ import com.gallery.app.common.ViewModelFactory_Factory;
 import com.gallery.app.rx.SchedulersFacade_Factory;
 import com.gallery.app.ui.UserActivity;
 import com.gallery.app.ui.UserActivity_MembersInjector;
+import com.gallery.app.ui.UserDetailsActivity;
+import com.gallery.app.ui.UserDetailsActivity_MembersInjector;
+import com.gallery.app.viewmodel.UserDetailsViewModel;
+import com.gallery.app.viewmodel.UserDetailsViewModel_Factory;
 import com.gallery.app.viewmodel.UserViewModel;
 import com.gallery.app.viewmodel.UserViewModel_Factory;
 import dagger.android.AndroidInjector;
@@ -22,6 +26,7 @@ import dagger.android.DispatchingAndroidInjector;
 import dagger.android.DispatchingAndroidInjector_Factory;
 import dagger.android.support.DaggerAppCompatActivity_MembersInjector;
 import dagger.internal.DoubleCheck;
+import dagger.internal.MapBuilder;
 import dagger.internal.MapProviderFactory;
 import dagger.internal.Preconditions;
 import java.util.Collections;
@@ -32,7 +37,13 @@ public final class DaggerAppComponent implements AppComponent {
   private Provider<AppActivityBindingModule_UserActivity.UserActivitySubcomponent.Builder>
       userActivitySubcomponentBuilderProvider;
 
+  private Provider<
+          AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent.Builder>
+      userDetailsActivitySubcomponentBuilderProvider;
+
   private UserViewModel_Factory userViewModelProvider;
+
+  private UserDetailsViewModel_Factory userDetailsViewModelProvider;
 
   private Provider<Map<Class<? extends ViewModel>, Provider<ViewModel>>>
       mapOfClassOfAndProviderOfViewModelProvider;
@@ -49,9 +60,12 @@ public final class DaggerAppComponent implements AppComponent {
 
   private Map<Class<? extends Activity>, Provider<AndroidInjector.Factory<? extends Activity>>>
       getMapOfClassOfAndProviderOfFactoryOf() {
-    return Collections
+    return MapBuilder
         .<Class<? extends Activity>, Provider<AndroidInjector.Factory<? extends Activity>>>
-            singletonMap(UserActivity.class, (Provider) userActivitySubcomponentBuilderProvider);
+            newMapBuilder(2)
+        .put(UserActivity.class, (Provider) userActivitySubcomponentBuilderProvider)
+        .put(UserDetailsActivity.class, (Provider) userDetailsActivitySubcomponentBuilderProvider)
+        .build();
   }
 
   private DispatchingAndroidInjector<Activity> getDispatchingAndroidInjectorOfActivity() {
@@ -109,10 +123,24 @@ public final class DaggerAppComponent implements AppComponent {
             return new UserActivitySubcomponentBuilder();
           }
         };
+    this.userDetailsActivitySubcomponentBuilderProvider =
+        new Provider<
+            AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent
+                .Builder>() {
+          @Override
+          public AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent
+                  .Builder
+              get() {
+            return new UserDetailsActivitySubcomponentBuilder();
+          }
+        };
     this.userViewModelProvider = UserViewModel_Factory.create(SchedulersFacade_Factory.create());
+    this.userDetailsViewModelProvider =
+        UserDetailsViewModel_Factory.create(SchedulersFacade_Factory.create());
     this.mapOfClassOfAndProviderOfViewModelProvider =
-        MapProviderFactory.<Class<? extends ViewModel>, ViewModel>builder(1)
+        MapProviderFactory.<Class<? extends ViewModel>, ViewModel>builder(2)
             .put(UserViewModel.class, (Provider) userViewModelProvider)
+            .put(UserDetailsViewModel.class, (Provider) userDetailsViewModelProvider)
             .build();
     this.viewModelFactoryProvider =
         DoubleCheck.provider(
@@ -192,6 +220,45 @@ public final class DaggerAppComponent implements AppComponent {
       DaggerAppCompatActivity_MembersInjector.injectFrameworkFragmentInjector(
           instance, DaggerAppComponent.this.getDispatchingAndroidInjectorOfFragment());
       UserActivity_MembersInjector.injectViewModelFactory(
+          instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
+      return instance;
+    }
+  }
+
+  private final class UserDetailsActivitySubcomponentBuilder
+      extends AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent.Builder {
+    private UserDetailsActivity seedInstance;
+
+    @Override
+    public AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent build() {
+      if (seedInstance == null) {
+        throw new IllegalStateException(
+            UserDetailsActivity.class.getCanonicalName() + " must be set");
+      }
+      return new UserDetailsActivitySubcomponentImpl(this);
+    }
+
+    @Override
+    public void seedInstance(UserDetailsActivity arg0) {
+      this.seedInstance = Preconditions.checkNotNull(arg0);
+    }
+  }
+
+  private final class UserDetailsActivitySubcomponentImpl
+      implements AppActivityBindingModule_UserDetailsActivity.UserDetailsActivitySubcomponent {
+    private UserDetailsActivitySubcomponentImpl(UserDetailsActivitySubcomponentBuilder builder) {}
+
+    @Override
+    public void inject(UserDetailsActivity arg0) {
+      injectUserDetailsActivity(arg0);
+    }
+
+    private UserDetailsActivity injectUserDetailsActivity(UserDetailsActivity instance) {
+      DaggerAppCompatActivity_MembersInjector.injectSupportFragmentInjector(
+          instance, DaggerAppComponent.this.getDispatchingAndroidInjectorOfFragment2());
+      DaggerAppCompatActivity_MembersInjector.injectFrameworkFragmentInjector(
+          instance, DaggerAppComponent.this.getDispatchingAndroidInjectorOfFragment());
+      UserDetailsActivity_MembersInjector.injectViewModelFactory(
           instance, DaggerAppComponent.this.viewModelFactoryProvider.get());
       return instance;
     }
