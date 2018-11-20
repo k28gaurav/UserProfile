@@ -2,6 +2,7 @@ package com.gallery.app.common
 
 import android.arch.lifecycle.ViewModel
 import android.arch.lifecycle.ViewModelProvider
+import com.gallery.app.viewmodel.UserDetailsViewModel
 import com.gallery.app.viewmodel.UserViewModel
 import dagger.Binds
 import dagger.Module
@@ -17,5 +18,10 @@ abstract class ViewModelModule {
     @IntoMap
     @ViewModelKey(UserViewModel::class)
     abstract fun userViewModel(viewModel: UserViewModel): ViewModel
+
+    @Binds
+    @IntoMap
+    @ViewModelKey(UserDetailsViewModel::class)
+    abstract fun userDetailsViewModel(viewModel: UserDetailsViewModel): ViewModel
 
 }

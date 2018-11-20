@@ -5,7 +5,7 @@ import dagger.Module
 import dagger.android.ContributesAndroidInjector
 
 @Module
-abstract class GalleryModule {
+abstract class UserModule {
 /*    @FragmentScoped
     @ContributesAndroidInjector
     abstract fun libraryFragment(): LibraryFragment
