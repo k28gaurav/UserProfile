@@ -3,7 +3,7 @@ package com.gallery.app.di;
 import java.lang.System;
 
 @kotlin.Metadata(mv = {1, 1, 11}, bv = {1, 0, 2}, k = 1, d1 = {"\u0000\u0010\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\bg\u0018\u00002\b\u0012\u0004\u0012\u00020\u00020\u0001:\u0001\u0003\u00a8\u0006\u0004"}, d2 = {"Lcom/gallery/app/di/AppComponent;", "Ldagger/android/AndroidInjector;", "Lcom/gallery/app/UserGalleryApplication;", "Builder", "app_debug"})
-@dagger.Component(modules = {com.gallery.app.di.AppModule.class, dagger.android.support.AndroidSupportInjectionModule.class, com.gallery.app.common.ViewModelModule.class, dagger.android.AndroidInjectionModule.class, com.gallery.app.di.AppActivityBindingModule.class})
+@dagger.Component(modules = {com.gallery.app.di.AppModule.class, dagger.android.support.AndroidSupportInjectionModule.class, com.gallery.app.common.ViewModelModule.class, dagger.android.AndroidInjectionModule.class, com.gallery.app.di.AppActivityBindingModule.class, com.gallery.app.data.di.DataModule.class})
 @javax.inject.Singleton()
 public abstract interface AppComponent extends dagger.android.AndroidInjector<com.gallery.app.UserGalleryApplication> {
     

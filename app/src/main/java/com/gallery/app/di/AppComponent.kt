@@ -3,6 +3,7 @@ package com.gallery.app.di
 import android.app.Application
 import com.gallery.app.UserGalleryApplication
 import com.gallery.app.common.ViewModelModule
+import com.gallery.app.data.di.DataModule
 
 import dagger.BindsInstance
 import dagger.Component
@@ -16,7 +17,7 @@ import javax.inject.Singleton
                       AndroidSupportInjectionModule::class,
                       ViewModelModule::class,
                       AndroidInjectionModule::class,
-                      AppActivityBindingModule::class])
+                      AppActivityBindingModule::class, DataModule::class])
 interface AppComponent: AndroidInjector<UserGalleryApplication>{
     @Component.Builder
     interface Builder {

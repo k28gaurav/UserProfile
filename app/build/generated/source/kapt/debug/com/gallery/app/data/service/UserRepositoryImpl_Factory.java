@@ -2,40 +2,49 @@
 package com.gallery.app.data.service;
 
 import com.gallery.app.rx.SchedulersFacade;
+import com.gaurav.cartsystem.data.db.UserDatabse;
 import dagger.internal.Factory;
 import javax.inject.Provider;
 
 public final class UserRepositoryImpl_Factory implements Factory<UserRepositoryImpl> {
+  private final Provider<UserDatabse> cartDatabaseProvider;
+
   private final Provider<ApiService> apiServiceProvider;
 
   private final Provider<SchedulersFacade> schedulersFacadeProvider;
 
   public UserRepositoryImpl_Factory(
+      Provider<UserDatabse> cartDatabaseProvider,
       Provider<ApiService> apiServiceProvider,
       Provider<SchedulersFacade> schedulersFacadeProvider) {
+    this.cartDatabaseProvider = cartDatabaseProvider;
     this.apiServiceProvider = apiServiceProvider;
     this.schedulersFacadeProvider = schedulersFacadeProvider;
   }
 
   @Override
   public UserRepositoryImpl get() {
-    return provideInstance(apiServiceProvider, schedulersFacadeProvider);
+    return provideInstance(cartDatabaseProvider, apiServiceProvider, schedulersFacadeProvider);
   }
 
   public static UserRepositoryImpl provideInstance(
+      Provider<UserDatabse> cartDatabaseProvider,
       Provider<ApiService> apiServiceProvider,
       Provider<SchedulersFacade> schedulersFacadeProvider) {
-    return new UserRepositoryImpl(apiServiceProvider.get(), schedulersFacadeProvider.get());
+    return new UserRepositoryImpl(
+        cartDatabaseProvider.get(), apiServiceProvider.get(), schedulersFacadeProvider.get());
   }
 
   public static UserRepositoryImpl_Factory create(
+      Provider<UserDatabse> cartDatabaseProvider,
       Provider<ApiService> apiServiceProvider,
       Provider<SchedulersFacade> schedulersFacadeProvider) {
-    return new UserRepositoryImpl_Factory(apiServiceProvider, schedulersFacadeProvider);
+    return new UserRepositoryImpl_Factory(
+        cartDatabaseProvider, apiServiceProvider, schedulersFacadeProvider);
   }
 
   public static UserRepositoryImpl newUserRepositoryImpl(
-      ApiService apiService, SchedulersFacade schedulersFacade) {
-    return new UserRepositoryImpl(apiService, schedulersFacade);
+      UserDatabse cartDatabase, ApiService apiService, SchedulersFacade schedulersFacade) {
+    return new UserRepositoryImpl(cartDatabase, apiService, schedulersFacade);
   }
 }

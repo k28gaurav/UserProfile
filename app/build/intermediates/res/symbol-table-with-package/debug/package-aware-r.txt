@@ -1001,6 +1001,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id iv_item
 id largeLabel
 id left
 id line1
@@ -1149,6 +1150,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_user
 layout activity_user_detail
+layout all_item_adapter
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1217,6 +1219,7 @@ string app_name
 string appbar_scrolling_view_behavior
 string bottom_sheet_behavior
 string character_counter_pattern
+string empty_field_message
 string full_name_hint
 string password_toggle_content_description
 string path_password_eye

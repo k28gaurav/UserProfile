@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">UserGalley</string>
     <string name="full_name_hint">Full Name</string>
+    <string name="empty_field_message">Field is empty</string>
 </resources>
