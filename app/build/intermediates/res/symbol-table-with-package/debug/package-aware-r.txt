@@ -1,4 +1,4 @@
-com.gaurav.cartsystem
+com.gallery.app
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -945,8 +945,8 @@ id barrier
 id beginning
 id blocking
 id bottom
-id btn_resume_test
 id btn_start
+id btn_start_test
 id buttonPanel
 id cancel_action
 id center

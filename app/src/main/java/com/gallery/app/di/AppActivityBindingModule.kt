@@ -1,5 +1,6 @@
 package com.gallery.app.di
 
+import com.gallery.app.module.UserDetailsModule
 import com.gallery.app.module.UserModule
 import com.gallery.app.ui.UserActivity
 import com.gallery.app.ui.UserDetailsActivity
@@ -13,6 +14,6 @@ abstract class AppActivityBindingModule {
     abstract fun userActivity(): UserActivity
 
     @ActivityScoped
-    @ContributesAndroidInjector(modules = [UserModule::class])
+    @ContributesAndroidInjector(modules = [UserDetailsModule::class])
     abstract fun userDetailsActivity(): UserDetailsActivity
 }

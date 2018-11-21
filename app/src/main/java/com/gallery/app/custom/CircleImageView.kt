@@ -18,7 +18,7 @@ import android.support.annotation.ColorRes
 import android.support.annotation.DrawableRes
 import android.util.AttributeSet
 import android.widget.ImageView
-import gallery.app.gaurav.com.usergalley.R
+import com.gallery.app.R
 
 class CircleImageView : ImageView {
 

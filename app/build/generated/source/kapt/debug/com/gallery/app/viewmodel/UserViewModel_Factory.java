@@ -2,9 +2,6 @@
 package com.gallery.app.viewmodel;
 
 import com.gallery.app.domain.interactor.EmailValidationUseCase;
-import com.gallery.app.domain.interactor.FetchItemListUseCase;
-import com.gallery.app.domain.interactor.GetItemsUseCase;
-import com.gallery.app.domain.interactor.SaveItemsUseCase;
 import com.gallery.app.rx.SchedulersFacade;
 import dagger.internal.Factory;
 import javax.inject.Provider;
@@ -12,76 +9,34 @@ import javax.inject.Provider;
 public final class UserViewModel_Factory implements Factory<UserViewModel> {
   private final Provider<SchedulersFacade> schedulersFacadeProvider;
 
-  private final Provider<GetItemsUseCase> getItemsUseCaseProvider;
-
-  private final Provider<FetchItemListUseCase> fetchItemListUseCaseProvider;
-
-  private final Provider<SaveItemsUseCase> saveItemsUseCaseProvider;
-
   private final Provider<EmailValidationUseCase> emailValidationUseCaseProvider;
 
   public UserViewModel_Factory(
       Provider<SchedulersFacade> schedulersFacadeProvider,
-      Provider<GetItemsUseCase> getItemsUseCaseProvider,
-      Provider<FetchItemListUseCase> fetchItemListUseCaseProvider,
-      Provider<SaveItemsUseCase> saveItemsUseCaseProvider,
       Provider<EmailValidationUseCase> emailValidationUseCaseProvider) {
     this.schedulersFacadeProvider = schedulersFacadeProvider;
-    this.getItemsUseCaseProvider = getItemsUseCaseProvider;
-    this.fetchItemListUseCaseProvider = fetchItemListUseCaseProvider;
-    this.saveItemsUseCaseProvider = saveItemsUseCaseProvider;
     this.emailValidationUseCaseProvider = emailValidationUseCaseProvider;
   }
 
   @Override
   public UserViewModel get() {
-    return provideInstance(
-        schedulersFacadeProvider,
-        getItemsUseCaseProvider,
-        fetchItemListUseCaseProvider,
-        saveItemsUseCaseProvider,
-        emailValidationUseCaseProvider);
+    return provideInstance(schedulersFacadeProvider, emailValidationUseCaseProvider);
   }
 
   public static UserViewModel provideInstance(
       Provider<SchedulersFacade> schedulersFacadeProvider,
-      Provider<GetItemsUseCase> getItemsUseCaseProvider,
-      Provider<FetchItemListUseCase> fetchItemListUseCaseProvider,
-      Provider<SaveItemsUseCase> saveItemsUseCaseProvider,
       Provider<EmailValidationUseCase> emailValidationUseCaseProvider) {
-    return new UserViewModel(
-        schedulersFacadeProvider.get(),
-        getItemsUseCaseProvider.get(),
-        fetchItemListUseCaseProvider.get(),
-        saveItemsUseCaseProvider.get(),
-        emailValidationUseCaseProvider.get());
+    return new UserViewModel(schedulersFacadeProvider.get(), emailValidationUseCaseProvider.get());
   }
 
   public static UserViewModel_Factory create(
       Provider<SchedulersFacade> schedulersFacadeProvider,
-      Provider<GetItemsUseCase> getItemsUseCaseProvider,
-      Provider<FetchItemListUseCase> fetchItemListUseCaseProvider,
-      Provider<SaveItemsUseCase> saveItemsUseCaseProvider,
       Provider<EmailValidationUseCase> emailValidationUseCaseProvider) {
-    return new UserViewModel_Factory(
-        schedulersFacadeProvider,
-        getItemsUseCaseProvider,
-        fetchItemListUseCaseProvider,
-        saveItemsUseCaseProvider,
-        emailValidationUseCaseProvider);
+    return new UserViewModel_Factory(schedulersFacadeProvider, emailValidationUseCaseProvider);
   }
 
   public static UserViewModel newUserViewModel(
-      SchedulersFacade schedulersFacade,
-      GetItemsUseCase getItemsUseCase,
-      FetchItemListUseCase fetchItemListUseCase,
-      SaveItemsUseCase saveItemsUseCase,
-      EmailValidationUseCase emailValidationUseCase) {
-    return new UserViewModel(
-        schedulersFacade,
-        getItemsUseCase,
-        fetchItemListUseCase,
-        saveItemsUseCase,
-        emailValidationUseCase);
+      SchedulersFacade schedulersFacade, EmailValidationUseCase emailValidationUseCase) {
+    return new UserViewModel(schedulersFacade, emailValidationUseCase);
   }
 }

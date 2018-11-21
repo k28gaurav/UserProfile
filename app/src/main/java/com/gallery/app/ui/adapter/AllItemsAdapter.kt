@@ -5,8 +5,8 @@ import android.content.Context
 import android.support.v7.util.DiffUtil
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import com.gallery.app.R
 import com.gallery.app.data.db.entities.Item
-import gallery.app.gaurav.com.usergalley.R
 
 
 class AllItemsAdapter(val context: Context, val onItemClick: (position: Int, item: Item) -> Unit): PagedListAdapter<Item, AllItemsViewHolder>(DIFF_CALLBACK) {

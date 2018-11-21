@@ -12,7 +12,7 @@ public abstract class AppActivityBindingModule {
     public abstract com.gallery.app.ui.UserActivity userActivity();
     
     @org.jetbrains.annotations.NotNull()
-    @dagger.android.ContributesAndroidInjector(modules = {com.gallery.app.module.UserModule.class})
+    @dagger.android.ContributesAndroidInjector(modules = {com.gallery.app.module.UserDetailsModule.class})
     @ActivityScoped()
     public abstract com.gallery.app.ui.UserDetailsActivity userDetailsActivity();
     

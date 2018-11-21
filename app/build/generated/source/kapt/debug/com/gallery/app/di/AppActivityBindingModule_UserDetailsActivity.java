@@ -1,7 +1,7 @@
 package com.gallery.app.di;
 
 import android.app.Activity;
-import com.gallery.app.module.UserModule;
+import com.gallery.app.module.UserDetailsModule;
 import com.gallery.app.ui.UserDetailsActivity;
 import dagger.Binds;
 import dagger.Module;
@@ -22,7 +22,7 @@ public abstract class AppActivityBindingModule_UserDetailsActivity {
   abstract AndroidInjector.Factory<? extends Activity> bindAndroidInjectorFactory(
       UserDetailsActivitySubcomponent.Builder builder);
 
-  @Subcomponent(modules = UserModule.class)
+  @Subcomponent(modules = UserDetailsModule.class)
   @ActivityScoped
   public interface UserDetailsActivitySubcomponent extends AndroidInjector<UserDetailsActivity> {
     @Subcomponent.Builder

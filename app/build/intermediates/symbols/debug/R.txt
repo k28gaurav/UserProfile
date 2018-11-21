@@ -944,8 +944,8 @@ int id barrier 0x7f080022
 int id beginning 0x7f080023
 int id blocking 0x7f080024
 int id bottom 0x7f080025
-int id btn_resume_test 0x7f080026
-int id btn_start 0x7f080027
+int id btn_start 0x7f080026
+int id btn_start_test 0x7f080027
 int id buttonPanel 0x7f080028
 int id cancel_action 0x7f080029
 int id center 0x7f08002a

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
 MERGED from [com.android.support:multidex:1.0.3] /Users/macbook/.gradle/caches/transforms-1/files-1.1/multidex-1.0.3.aar/36e3ac3ea0ae82d4b6a6f8f9179c768c/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:17:1-30:12
 MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:2:1-13:12
@@ -42,20 +42,20 @@ MERGED from [android.arch.core:runtime:1.1.1] /Users/macbook/.gradle/caches/tran
 MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-framework-1.1.1.aar/9b1a3ded06621f7b4ecbc1403a7478be/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.persistence:db:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/db-1.1.1.aar/7662e03d6f2a9fa83247659ab954b327/AndroidManifest.xml:17:1-22:12
 MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/gifdecoder-4.7.1.aar/e1c81e4324d49c840e08ffc1a74e3ed1/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
-INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
 	package
 		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:3:5-30
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-24:12
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:1-26:12
 		INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:2:11-69
@@ -64,7 +64,7 @@ ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:5:
 	android:name
 		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:8:5-22:19
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:8:5-24:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:22:5-28:19
 MERGED from [android.arch.lifecycle:extensions:1.1.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/extensions-1.1.1.aar/5c130a943ac5bc3edbd7db432ab36742/AndroidManifest.xml:22:5-28:19
 MERGED from [com.github.bumptech.glide:glide:4.7.1] /Users/macbook/.gradle/caches/transforms-1/files-1.1/glide-4.7.1.aar/fb969a608179b1c87f673043fda7eb73/AndroidManifest.xml:11:5-20
@@ -92,21 +92,27 @@ MERGED from [com.github.bumptech.glide:gifdecoder:4.7.1] /Users/macbook/.gradle/
 	android:allowBackup
 		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:14:9-40
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:15:9-40
+	android:name
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:14:9-47
 activity#com.gallery.app.ui.UserActivity
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:15:9-21:20
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:15:19-65
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:16:19-65
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:16:13-20:29
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:17:17-69
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:18:17-69
 	android:name
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:17:25-66
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:18:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:19:17-77
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
-		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:19:27-74
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:20:27-74
+activity#com.gallery.app.ui.UserDetailsActivity
+ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml:23:19-57
 uses-sdk
 INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/macbook/Desktop/UserGalley/app/src/main/AndroidManifest.xml

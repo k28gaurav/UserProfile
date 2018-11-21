@@ -24,7 +24,7 @@ allprojects {
     ext {
         //Configs are in alphabetical order
         appConfig = [
-                applicationId: 'com.gaurav.cartsystem',
+                applicationId: 'com.gallery.app',
                 appName: 'Cart System',
                 versionCode: 1,
                 versionName: '1.0.0'

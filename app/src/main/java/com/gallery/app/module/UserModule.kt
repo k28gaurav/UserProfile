@@ -6,12 +6,5 @@ import dagger.android.ContributesAndroidInjector
 
 @Module
 abstract class UserModule {
-/*    @FragmentScoped
-    @ContributesAndroidInjector
-    abstract fun libraryFragment(): LibraryFragment
-
-    @FragmentScoped
-    @ContributesAndroidInjector
-    abstract fun shoppingCartFragment(): ShoppingCartFragment*/
 
 }

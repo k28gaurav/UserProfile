@@ -2,7 +2,7 @@
 package com.gallery.app.data.di;
 
 import android.content.Context;
-import com.gaurav.cartsystem.data.db.UserDatabse;
+import com.gallery.app.data.db.UserDatabse;
 import dagger.internal.Factory;
 import dagger.internal.Preconditions;
 import javax.inject.Provider;
