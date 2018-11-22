@@ -19,12 +19,20 @@ import com.gallery.app.base.DaggerBaseActivity
 import com.gallery.app.ui.adapter.AllItemsAdapter
 import com.gallery.app.utils.Constants
 import com.gallery.app.viewmodel.UserDetailsViewModel
+import io.reactivex.Observable
+import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
+import io.reactivex.observers.DisposableObserver
+import io.reactivex.schedulers.Schedulers
 import kotlinx.android.synthetic.main.activity_user_detail.appbar
 import kotlinx.android.synthetic.main.activity_user_detail.profile_image
 import kotlinx.android.synthetic.main.activity_user_detail.rv_gallery
 import kotlinx.android.synthetic.main.activity_user_detail.toolbar
+import kotlinx.android.synthetic.main.activity_user_detail.tv_timer
 import kotlinx.android.synthetic.main.activity_user_detail.tv_user_name
+import timber.log.Timber
 import java.lang.ref.WeakReference
+import java.util.concurrent.TimeUnit
 import javax.inject.Inject
 
 class UserDetailsActivity : DaggerBaseActivity<UserDetailsViewModel>() {
@@ -36,6 +44,8 @@ class UserDetailsActivity : DaggerBaseActivity<UserDetailsViewModel>() {
     private val PERCENTAGE_TO_ANIMATE_AVATAR = 20
     private var mIsAvatarShown = true
     private var mMaxScrollSize: Int = 0
+    private var timerDisposable: CompositeDisposable? = null
+
 
     companion object {
         fun startActivity(activity: WeakReference<Activity>, userName: String) {
@@ -49,12 +59,15 @@ class UserDetailsActivity : DaggerBaseActivity<UserDetailsViewModel>() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_user_detail)
         viewModel = ViewModelProviders.of(this, viewModelFactory)[UserDetailsViewModel::class.java]
+        timerDisposable = CompositeDisposable()
         initViews()
         observeViewModel()
     }
 
 
     override fun initViews() {
+
+        setTimer()
 
         appbar.addOnOffsetChangedListener { appBarLayout, verticalOffset ->
             if (mMaxScrollSize == 0)
@@ -105,6 +118,33 @@ class UserDetailsActivity : DaggerBaseActivity<UserDetailsViewModel>() {
                 allItemsAdapter.submitList(items)
             }
         })
+    }
+
+    private fun setTimer() {
+        timerDisposable?.add(getObservable()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribeWith(getObserver()))
+    }
+
+    private fun getObservable(): Observable<out Long> {
+        return Observable.interval( 0, 100, TimeUnit.MILLISECONDS)
+    }
+
+    private fun getObserver(): DisposableObserver<Long> {
+        return object : DisposableObserver<Long>() {
+            override fun onNext(t: Long) {
+                tv_timer.text = String.format("%02d", (t))
+            }
+
+            override fun onError(e: Throwable) {
+
+            }
+
+            override fun onComplete() {
+                Timber.e("OnGoalComplete")
+            }
+        }
     }
 
 }
